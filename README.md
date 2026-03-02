@@ -1,6 +1,6 @@
-# 📊 Cross-Channel Marketing Optimization (Facebook vs AdWords)
+#Cross-Channel Marketing Optimization (Facebook vs AdWords)
 
-## 🧠 Project Overview
+## Project Overview
 
 This project is about comparing two advertising platforms — Facebook Ads and Google AdWords — to understand which one performs better in terms of conversions and cost efficiency.
 
@@ -8,7 +8,7 @@ As a marketing agency, the goal is to figure out where to spend money so that we
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Both Facebook and AdWords are generating clicks and conversions, but it is not very clear which platform is actually better in a consistent and cost effective way.
 
@@ -23,7 +23,7 @@ So the aim of this project is to:
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 The dataset contains daily campaign data for 1 year (2019), including:
 
@@ -35,7 +35,7 @@ The dataset contains daily campaign data for 1 year (2019), including:
 
 ---
 
-## 🔍 Approach
+## Approach
 
 ### 1. Data Cleaning
 
@@ -61,7 +61,6 @@ The analysis was done using multiple angles:
 * **Segmentation:** Grouped days into low, medium, high performance
 * **Deviation:** Identified outliers and variability
 * **Distribution:** Checked how data is spread
-* **Pareto:** Found top contributing days
 * **Comparison:** Compared Facebook vs AdWords across all metrics
 
 ---
@@ -71,7 +70,7 @@ The analysis was done using multiple angles:
 * Checked normality using Shapiro-Wilk test
 * Since normality was violated, used **Mann-Whitney U test**
 
-📌 Result:
+ Result:
 There is a statistically significant difference between the two platforms
 
 ---
@@ -85,18 +84,18 @@ Instead of only relying on p-values, confidence intervals were used to measure r
 * Difference: **+0.1697**
 * 95% CI: [0.1644, 0.1750]
 
-👉 Facebook has clearly higher conversion rate
+Facebook has clearly higher conversion rate
 
 #### Cost Per Acquisition (CPA)
 
 * Difference: **-16.64**
 * 95% CI: [-17.76, -15.53]
 
-👉 Facebook is cheaper per conversion
+Facebook is cheaper per conversion
 
 ---
 
-## 💡 Key Insights
+## Key Insights
 
 * Facebook performs better in both:
 
@@ -109,7 +108,7 @@ Instead of only relying on p-values, confidence intervals were used to measure r
 
 ---
 
-## 🤖 Predictive Modeling
+## Predictive Modeling
 
 A Linear Regression model was built to predict conversions based on clicks.
 
@@ -119,11 +118,11 @@ A Linear Regression model was built to predict conversions based on clicks.
 ### Business Use:
 
 We can reverse the model to estimate:
-👉 How many clicks are needed to achieve a target number of conversions
+How many clicks are needed to achieve a target number of conversions
 
 ---
 
-## ⚠️ Model Limitations
+## Model Limitations !
 
 * Assumes linear relationship between clicks and conversions
 
@@ -139,7 +138,7 @@ So results should be used as **directional insights**, not exact predictions
 
 ---
 
-## 📈 Strategic Recommendations
+## Strategic Recommendations
 
 1. **Reallocate Budget**
    Shift 15–20% of budget to Facebook since it has lower CPA
@@ -155,7 +154,7 @@ So results should be used as **directional insights**, not exact predictions
 
 ---
 
-## 🚀 Conclusion
+## Conclusion
 
 From this analysis, Facebook clearly outperforms AdWords in both performance and cost efficiency.
 
@@ -163,7 +162,7 @@ However, since this is based on observational data, results should be treated as
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 
 * Python (Pandas, NumPy)
 * Matplotlib, Seaborn
@@ -172,7 +171,7 @@ However, since this is based on observational data, results should be treated as
 
 ---
 
-## 🙋‍♂️ Final Note
+## Final Note
 
 This project helped me understand how to go beyond basic analysis and actually connect data with real business decisions. Some parts may not be perfect but the goal was to learn and improve step by step.
 
